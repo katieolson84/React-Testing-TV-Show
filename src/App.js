@@ -2,9 +2,12 @@ import React, { useState, useEffect} from "react";
 import Dropdown from "react-dropdown";
 import parse from "html-react-parser";
 
+// Components
 import {formatSeasons} from "./utils/formatSeasons";
 import {fetchShow} from "./api/fetchShow";
 import Episodes from "./components/Episodes";
+
+// Styling
 import "./styles.css";
 
 export default function App() {
@@ -47,3 +50,6 @@ export default function App() {
     </div>
   );
 }
+
+// Updated Dropdown with new version
+
